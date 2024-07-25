@@ -1,0 +1,18 @@
+#navbar{
+    display:flex;
+    padding-left: 10ch;
+    width: 300px;
+    justify-content: space-around;
+}
+li{
+    list-style:none;
+}
+.navbutton{
+    height:40px;
+    width:80px;
+    text-transform: capitalize;
+    background-color: red;
+}
+nav{
+    position: fixed;
+}

@@ -1,0 +1,84 @@
+img{
+    height:40px;
+    width:40px;
+}
+.HeaderButton{
+    display: flex;
+    width:50px
+}
+#PlaylistButton{
+    cursor:pointer;
+    height: 30px;
+    width:30px;
+    display: flex;
+    align-items:center;
+    z-index:10;
+    justify-content: center;
+    border-radius: 50%;
+    margin-left: 100%;
+}
+.component{
+    padding:10px;
+    width:100px;
+    z-index:1;
+}
+#main{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#search{
+    position:fixed;
+    top:0px;
+    z-index:5;
+    height:40px;
+    width:300px;
+}
+#searchcontainer{
+    display:flex;
+}
+.searchComponent{
+    position:fixed;
+    top:10vh;
+    height:600px;
+    width:200px;
+}
+.component:hover{
+    cursor:pointer
+}
+#addingplaylist{
+    z-index: 0;
+}
+#SearchToPlaylist{
+    position: absolute;
+    right:10px;
+    top:0px;
+    list-style: none;
+    background-color: red;
+    height:40px;
+    display:flex;
+    align-items: center;
+}
+#SearchToPlaylist:hover{
+    cursor:pointer;
+    border: 3px solid black;
+}
+#SongComp{
+    left:10%;
+    overflow:hidden;
+    overflow-y:auto;
+}   
+#ArtistComp{
+    left:40%;
+    overflow:hidden;
+    overflow-y:auto;
+}
+#AlbumComp{
+    left:70%;
+    overflow:hidden;
+    overflow-y:auto;
+}
+audio{
+    position:absolute;
+    bottom:0px;
+}
